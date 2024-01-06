@@ -24,15 +24,7 @@ T5 is a text-to-text transformer model. The project employed a pre-trained T5 mo
 
 ##Analysis
 1. Sentiment Counts Table
-The sentiment counts table provides a quantitative breakdown of sentiments predicted by each model. The counts include negative, neutral, and positive sentiments. Key observations from the counts table are as follows:
-
-          negative  neutral  positive
-vader        133.0      2.0      65.0
-afinn        142.0      5.0      53.0
-TextBlob      75.0     60.0      65.0
-BERT           NaN     26.0     174.0
-T5             NaN    199.0       1.0
-
+The sentiment counts table provides a quantitative breakdown of sentiments predicted by each model. The counts include negative, neutral, and positive sentiments. 
 
 2. Bar Plot
 The bar plot visually represents the sentiment distribution across models. The x-axis denotes different sentiment analysis models, while the y-axis represents the count of sentiments (positive, negative, neutral). Key insights from the bar plot include:
